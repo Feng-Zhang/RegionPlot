@@ -1,0 +1,3 @@
+importFrom(genetics,LD)
+import(combinat)
+export(plotRegion)
