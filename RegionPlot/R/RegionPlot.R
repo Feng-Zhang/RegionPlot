@@ -112,8 +112,8 @@ plotRegion <- function(pval,plotChr,plotRegion,geneRegion,isLD=TRUE,LDresult,gen
 gene_region <- function(pval,HstSNP){
   #StartIdx <- which(pval$Position < (pval[pval$MkName==HstSNP,'Position']-0.2))
   #EndIdx <- which(pval$Position > (pval[pval$MkName==HstSNP,'Position']+0.2))
-  geneStart <- pval[pval$MkName==HstSNP,'Position']-0.2
-  geneEnd <- pval[pval$MkName==HstSNP,'Position']+0.2
+  geneStart <- pval[pval$MkName==HstSNP,'Position']-0.3
+  geneEnd <- pval[pval$MkName==HstSNP,'Position']+0.3
   if(geneStart <= 0) geneStart <- min(pval$Position)
   if(geneEnd>max(pval$Position)) geneEnd <- max(pval$Position)
   c(geneStart,geneEnd)
