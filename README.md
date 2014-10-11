@@ -8,6 +8,6 @@ You can install the stable version on [GitHub](https://github.com/Feng-Zhang/Reg
 library(devtools)
 install_github("RegionPlot",username="Feng-Zhang",subdir="RegionPlot")
 ```  
-You can also download the RegionPlot_*.zip in Windows system or RegionPlot_*.tar.gz in Linux system and install it.  
+You can also download the RegionPlot_\*.zip in Windows system or RegionPlot_\*.tar.gz in Linux system and install it.  
  
  
